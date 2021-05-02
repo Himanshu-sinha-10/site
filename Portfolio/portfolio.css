@@ -1,0 +1,29 @@
+body
+{
+	font-family: 'Caveat', cursive;
+	background-color:rgb(8, 8, 8);
+}
+
+
+img{
+	width:48%;
+	height: 50%;
+	float:left;
+	margin:0.5%;
+}
+p {
+	/* font-family:raleway; */
+	font-size:23px;
+	font-weight:800;
+	text-transform: uppercase;
+	margin-left:1.2%;
+	border-bottom:solid grey 1px;
+	padding:1.2%;
+	margin-right:2%;
+
+}
+.header{
+   text-align: center;
+   font-family: 'Caveat', cursive;
+   color:white;
+}
