@@ -5,6 +5,7 @@
 body{
     color:#444649;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 
@@ -29,6 +30,7 @@ body{
 
 .h{
    color:rgb(180, 180, 5);
+   
 }
 .s{
   color:rgb(95, 3, 3);
@@ -178,4 +180,129 @@ a:hover{
 
 nav{
     position: fixed;
+}
+
+.h:hover{
+    animation:hanimation 1s ease-in-out;
+    text-shadow: 0 0 10px rgb(180, 180, 5),
+                    0 0 20px rgb(180, 180, 5),
+                    0 0 30px rgb(180, 180, 5);
+    
+}
+
+@keyframes hanimation{
+    0%{
+        text-shadow: 0 0 10px rgb(180, 180, 5),
+                    0 0 20px rgb(180, 180, 5),
+                    0 0 30px rgb(180, 180, 5);
+    }
+
+    10%{
+        text-shadow: none;
+    }
+
+    25%{
+        text-shadow: none;
+    }
+
+    50%{
+        text-shadow: 0 0 10px rgb(180, 180, 5),
+                    0 0 20px rgb(180, 180, 5),
+                    0 0 30px rgb(180, 180, 5);
+    }
+
+    75%{
+        text-shadow: none;
+    }
+
+    80%{
+        text-shadow: none;
+    }
+
+    100%{
+        text-shadow: 0 0 10px rgb(180, 180, 5),
+                    0 0 20px rgb(180, 180, 5),
+                    0 0 30px rgb(180, 180, 5);
+    }
+}
+
+.s:hover{
+    animation:sanimation 1s linear;
+    text-shadow: 0 0 10px rgb(95, 3, 3),
+                    0 0 20px rgb(95, 3, 3),
+                    0 0 30px rgb(95, 3, 3);
+    
+}
+
+@keyframes sanimation{
+    0%{
+        text-shadow: 0 0 10px rgb(95, 3, 3),
+                    0 0 20px rgb(95, 3, 3),
+                    0 0 30px rgb(95, 3, 3);
+    }
+
+    10%{
+        text-shadow: none;
+    }
+
+    25%{
+        text-shadow: none;
+    }
+
+    50%{
+        text-shadow: 0 0 10px rgb(95, 3, 3),
+                    0 0 20px rgb(95, 3, 3),
+                    0 0 30px rgb(95, 3, 3);
+    }
+
+    75%{
+        text-shadow: none;
+    }
+
+    100%{
+        text-shadow: 0 0 10px rgb(95, 3, 3),
+                    0 0 20px rgb(95, 3, 3),
+                    0 0 30px rgb(95, 3, 3);
+    }
+}
+
+.dot:hover{
+    animation:dotanimation 1s linear;
+    text-shadow: 0 0 10px rgb(59, 59, 248),
+                    0 0 20px rgb(59, 59, 248),
+                    0 0 30px rgb(59, 59, 248);
+    
+}
+
+@keyframes dotanimation{
+    0%{
+        text-shadow: 0 0 10px rgb(59, 59, 248),
+                    0 0 20px rgb(59, 59, 248),
+                    0 0 30px rgb(59, 59, 248);
+    }
+
+    25%{
+        text-shadow: none;
+    }
+
+    50%{
+        text-shadow: 0 0 10px rgb(59, 59, 248),
+                    0 0 20px rgb(59, 59, 248),
+                    0 0 30px rgb(59, 59, 248);
+    }
+
+    75%{
+        text-shadow: none;
+    }
+
+    100%{
+        text-shadow: 0 0 10px rgb(59, 59, 248),
+                    0 0 20px rgb(59, 59, 248),
+                    0 0 30px rgb(59, 59, 248);
+    }
+}
+
+span.intro{
+    font-size: 8rem;
+ font-family: 'Nanum Gothic', sans-serif;
 }
